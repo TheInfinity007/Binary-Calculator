@@ -1,0 +1,64 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:33%;
+	height:500px;
+	display: flex;
+	flex-direction: column;
+	margin:auto;
+}
+
+#res
+{
+	background-color:lightgray;
+	border: 2px solid black;
+	height:48px;
+	font-size:20px;
+	width:99%;
+	padding:10px 0;
+}
+
+.btns
+{
+	padding:auto;
+
+}
+
+#btn0,
+#btn1
+{
+	background-color:lightgreen;
+	color:brown;
+}
+
+#btnClr,
+#btnEql
+{
+	background-color:darkgreen;
+	color:white;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv
+{
+	background-color:black;
+	color:red;
+}
+
+.btn
+{
+	width:25%;
+	height: 36px;
+	font-size:18px;
+	margin:0;
+	float:left;
+	text-align: center;
+	font-weight: bold;
+	border-style:inset;
+}
